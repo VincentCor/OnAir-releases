@@ -5,8 +5,8 @@
     <language>en</language>
     <item>
       <title>OnAir 3.0.4</title>
-      <pubDate>Sun, 05 Apr 2026 11:32:38 -0400</pubDate>
-      <sparkle:version>3</sparkle:version>
+      <pubDate>Sun, 05 Apr 2026 11:37:36 -0400</pubDate>
+      <sparkle:version>4</sparkle:version>
       <sparkle:shortVersionString>3.0.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
@@ -29,8 +29,8 @@
       ]]></description>
       <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.0.4/OnAir-3.0.4-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="ejiUAaIHe0B71bLIqeBaN/tb7ge4wiXMIDGeZuOQkJZeCe6gB+Q4BFjYdELrTkBT6phCDfNWsPQynPG2isY7Dg=="
-                 length="4846591" />
+                 sparkle:edSignature="2ozXWI3cLyXb2Cl9exgixtcQdqINZpLFexri2hXduClsqiTAFoclcvhr9PcZj5ze8IPT3297L/vepQVfzYoHCw=="
+                 length="4846666" />
     </item>
   </channel>
 </rss>
