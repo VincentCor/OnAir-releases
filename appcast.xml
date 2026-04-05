@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>OnAir Updates</title>
+    <language>en</language>
+    <item>
+      <title>OnAir 3.0.3</title>
+      <pubDate>Sun, 05 Apr 2026 11:18:46 -0400</pubDate>
+      <sparkle:shortVersionString>3.0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in OnAir 3.0.3</h2>
+        <ul>
+          <li>Complete rewrite from Python to native Swift/macOS for faster performance and smaller app size.</li>
+          <li>Native menu bar integration with improved icon refresh across multiple displays.</li>
+          <li>Floating shortcut confirmation window with fade-in/fade-out animations.</li>
+          <li>Teams setup screen auto-dismisses when third-party API is detected.</li>
+          <li>Focus Mode validation on save with system Focus mode name verification.</li>
+          <li>Fixed text field cursor and selection visibility across all screens.</li>
+          <li>Fixed SQLite multi-threaded crash with serialized database access.</li>
+          <li>Fixed sessions remaining "Ongoing" after configuration reload.</li>
+          <li>Splash screen displayed during app initialization.</li>
+          <li>Improved configuration screen with Title Case labels and aligned controls.</li>
+          <li>Native macOS text fields with proper caret and selection highlighting.</li>
+        </ul>
+      ]]></description>
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.0.3/OnAir-3.0.3-macOS-arm64.dmg"
+                 type="application/octet-stream"
+                 sparkle:edSignature="Y2HMH4K5zEJwwpD29nAKkl5hk+oIKCpddCJR2AgQ5QOVTgXan4FgaZc+W7ti54t4YnjTD1v/EZJ4HmQcK0AnBA=="
+                 length="4841173" />
+    </item>
+  </channel>
+</rss>

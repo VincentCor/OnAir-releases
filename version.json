@@ -1,0 +1,5 @@
+{
+  "version": "3.0.3",
+  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.0.3/OnAir-3.0.3-macOS-arm64.dmg",
+  "release_notes": "- Complete rewrite from Python to native Swift/macOS for faster performance and smaller app size. - Native menu bar integration with improved icon refresh across multiple displays. - Floating shortcut confirmation window with fade-in/fade-out animations. - Teams setup screen auto-dismisses when third-party API is detected. - Focus Mode validation on save with system Focus mode name verification. - Fixed text field cursor and selection visibility across all screens. - Fixed SQLite multi-threaded crash with serialized database access. - Fixed sessions remaining Ongoing after configuration reload. - Splash screen displayed during app initialization. - Improved configuration screen with Title Case labels and aligned controls. - Native macOS text fields with proper caret and selection highlighting."
+}
