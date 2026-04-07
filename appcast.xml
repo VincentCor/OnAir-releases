@@ -4,13 +4,13 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir 3.0.6</title>
-      <pubDate>Tue, 07 Apr 2026 11:46:35 -0400</pubDate>
-      <sparkle:version>9</sparkle:version>
-      <sparkle:shortVersionString>3.0.6</sparkle:shortVersionString>
+      <title>OnAir 3.0.7</title>
+      <pubDate>Tue, 07 Apr 2026 11:54:52 -0400</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>3.0.7</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir 3.0.6</h2>
+        <h2>What's New in OnAir 3.0.7</h2>
         <ul>
           <li>Fixed web meetings (Google Meet, Zoom Web, etc.) ending prematurely after 10 seconds.</li>
           <li>Shortcut confirmation window now appears in dark mode for a cleaner look.</li>
@@ -19,10 +19,10 @@
           <li>Added Brave Browser support for web meeting detection.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.0.6/OnAir-3.0.6-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.0.7/OnAir-3.0.7-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="upCfbw94qQxfUIrd3aocbldF6AQqiHWEvcj1c/VwFn3F6NFz90hjslFc2tuzDQnBsRjSn2eEot3xJoPfOyVnDA=="
-                 length="4884073" />
+                 sparkle:edSignature="zHV8uuPqg7SiYOlv9WuaosuMEtAOXfyTSRVEF0AiHrlbd/l6q+W2+t9DufadYMxfJNhzxsJGkHsQOQ6gnFLSDw=="
+                 length="4884036" />
     </item>
   </channel>
 </rss>
