@@ -1,5 +1,5 @@
 {
-  "version": "3.0.8",
-  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.0.8/OnAir-3.0.8-macOS-arm64.dmg",
+  "version": "3.0.9",
+  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.0.9/OnAir-3.0.9-macOS-arm64.dmg",
   "release_notes": "- Fixed web meetings (Google Meet, Zoom Web, etc.) ending prematurely after 10 seconds. - Shortcut confirmation window now appears in dark mode for a cleaner look. - Shortcut confirmation avoids overlapping macOS Focus Mode notifications. - Improved login items setup screen with new design and icon. - Added Brave Browser support for web meeting detection."
 }
