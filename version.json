@@ -1,5 +1,5 @@
 {
-  "version": "3.0.5",
-  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.0.5/OnAir-3.0.5-macOS-arm64.dmg",
-  "release_notes": "- In-app automatic updates via Sparkle — no more manual downloads. - Persistent log file at ~/Library/Logs/OnAir/ for post-mortem diagnostics. - Detailed Teams WebSocket logging with full JSON on meeting transitions. - Fixed dark mode not applying to Configuration and Statistics windows. - Fixed Cmd+C/V/X/A not working in text fields (LSUIElement keyboard routing). - Fixed shortcut confirmation window closing too quickly when multiple triggers fire. - Configuration and Statistics windows now appear in Command-Tab. - Menu bar icon tooltip shows current status, active platform, and meeting duration. - Post-reload safety net prevents device from staying ON after configuration changes. - Cleaned up legacy configuration keys and added automatic config migration. - ATS diagnostic at startup confirms ESPHome HTTP connectivity. - Build script verifies NSAllowsLocalNetworking in the compiled app. - Distribution migrated from Dropbox to GitHub Releases."
+  "version": "3.0.6",
+  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.0.6/OnAir-3.0.6-macOS-arm64.dmg",
+  "release_notes": "- Fixed web meetings (Google Meet, Zoom Web, etc.) ending prematurely after 10 seconds. - Shortcut confirmation window now appears in dark mode for a cleaner look. - Shortcut confirmation avoids overlapping macOS Focus Mode notifications. - Improved login items setup screen with new design and icon. - Added Brave Browser support for web meeting detection."
 }

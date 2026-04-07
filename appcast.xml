@@ -4,33 +4,25 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir 3.0.5</title>
-      <pubDate>Sun, 05 Apr 2026 11:39:29 -0400</pubDate>
-      <sparkle:version>5</sparkle:version>
-      <sparkle:shortVersionString>3.0.5</sparkle:shortVersionString>
+      <title>OnAir 3.0.6</title>
+      <pubDate>Tue, 07 Apr 2026 11:37:49 -0400</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>3.0.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir 3.0.5</h2>
+        <h2>What's New in OnAir 3.0.6</h2>
         <ul>
-          <li>In-app automatic updates via Sparkle — no more manual downloads.</li>
-          <li>Persistent log file at ~/Library/Logs/OnAir/ for post-mortem diagnostics.</li>
-          <li>Detailed Teams WebSocket logging with full JSON on meeting transitions.</li>
-          <li>Fixed dark mode not applying to Configuration and Statistics windows.</li>
-          <li>Fixed Cmd+C/V/X/A not working in text fields (LSUIElement keyboard routing).</li>
-          <li>Fixed shortcut confirmation window closing too quickly when multiple triggers fire.</li>
-          <li>Configuration and Statistics windows now appear in Command-Tab.</li>
-          <li>Menu bar icon tooltip shows current status, active platform, and meeting duration.</li>
-          <li>Post-reload safety net prevents device from staying ON after configuration changes.</li>
-          <li>Cleaned up legacy configuration keys and added automatic config migration.</li>
-          <li>ATS diagnostic at startup confirms ESPHome HTTP connectivity.</li>
-          <li>Build script verifies NSAllowsLocalNetworking in the compiled app.</li>
-          <li>Distribution migrated from Dropbox to GitHub Releases.</li>
+          <li>Fixed web meetings (Google Meet, Zoom Web, etc.) ending prematurely after 10 seconds.</li>
+          <li>Shortcut confirmation window now appears in dark mode for a cleaner look.</li>
+          <li>Shortcut confirmation avoids overlapping macOS Focus Mode notifications.</li>
+          <li>Improved login items setup screen with new design and icon.</li>
+          <li>Added Brave Browser support for web meeting detection.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.0.5/OnAir-3.0.5-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.0.6/OnAir-3.0.6-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="be4eoxa+B3XyEZ9hpSmfThz8uN+XAWKRTaI4Odt3bCHd0fv4N9MH1jj9YBp88p1doMuzNy4ckIwyJjpCoOMDCA=="
-                 length="4846670" />
+                 sparkle:edSignature="UFzMwkQlNSYv1lKAuRpNYr4pe0N9qjp/GfKOq0lDUjfLaTZaImn2MWrsKlGbyunsUvjQqte1Z0y4uEv2t8MyCw=="
+                 length="4883351" />
     </item>
   </channel>
 </rss>
