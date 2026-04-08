@@ -1,5 +1,5 @@
 {
-  "version": "3.0.12",
-  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.0.12/OnAir-3.0.12-macOS-arm64.dmg",
+  "version": "3.0.13",
+  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.0.13/OnAir-3.0.13-macOS-arm64.dmg",
   "release_notes": "- Fixed microphone identified as Browser instead of Teams during Teams app meetings. - Fixed external device change detection race condition causing false alerts. - Stale meeting watchdog: forces device OFF if Teams WebSocket goes silent for 2 minutes. - Microphone polling fallback for USB audio devices (Yealink, Brave Browser). - Web meetings (Meet, Zoom Web) no longer end prematurely after 10 seconds. - Shortcut confirmation window: dark mode, Focus Mode offset, improved timing. - Check for Updates now responds on first click."
 }
