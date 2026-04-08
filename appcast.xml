@@ -4,27 +4,27 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir 3.0.11</title>
-      <pubDate>Wed, 08 Apr 2026 09:37:32 -0400</pubDate>
-      <sparkle:version>14</sparkle:version>
-      <sparkle:shortVersionString>3.0.11</sparkle:shortVersionString>
+      <title>OnAir 3.0.12</title>
+      <pubDate>Wed, 08 Apr 2026 11:02:50 -0400</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>3.0.12</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir 3.0.11</h2>
+        <h2>What's New in OnAir 3.0.12</h2>
         <ul>
-          <li>Fixed device staying ON after Teams meetings end (stale meeting watchdog).</li>
-          <li>Fixed false re-activation after meeting ends from lingering mic/camera activity.</li>
-          <li>Improved microphone detection with polling fallback for USB audio devices.</li>
-          <li>Browser tabs scanned before desktop apps for accurate web meeting identification.</li>
-          <li>Faster config save when no device is configured (skips mDNS search).</li>
-          <li>Clearer save confirmation message when no device is configured.</li>
+          <li>Fixed microphone identified as "Browser" instead of Teams during Teams app meetings.</li>
+          <li>Fixed external device change detection race condition causing false alerts.</li>
+          <li>Stale meeting watchdog: forces device OFF if Teams WebSocket goes silent for 2 minutes.</li>
+          <li>Microphone polling fallback for USB audio devices (Yealink, Brave Browser).</li>
+          <li>Web meetings (Meet, Zoom Web) no longer end prematurely after 10 seconds.</li>
+          <li>Shortcut confirmation window: dark mode, Focus Mode offset, improved timing.</li>
           <li>Check for Updates now responds on first click.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.0.11/OnAir-3.0.11-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.0.12/OnAir-3.0.12-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="4zMA1L6HuGFQhUr3IjSJ+NfZpiYElXCpjFMhFx4h4Tmx5wu9sa16OsHFJnUHKQXUDPzIuHOELhovAdciwdrKAA=="
-                 length="4885320" />
+                 sparkle:edSignature="G5JNDYG6aL00XgSZ1fusYKRGnrbL2TvFO2WVZWwjbTOtjuGBZXnhOVyturet9SDa4vkglwvsrJ+ysEzE6U5fDw=="
+                 length="4884153" />
     </item>
   </channel>
 </rss>
