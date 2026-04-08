@@ -4,13 +4,13 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir 3.0.10</title>
-      <pubDate>Tue, 07 Apr 2026 18:16:32 -0400</pubDate>
-      <sparkle:version>13</sparkle:version>
-      <sparkle:shortVersionString>3.0.10</sparkle:shortVersionString>
+      <title>OnAir 3.0.11</title>
+      <pubDate>Wed, 08 Apr 2026 09:27:24 -0400</pubDate>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>3.0.11</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir 3.0.10</h2>
+        <h2>What's New in OnAir 3.0.11</h2>
         <ul>
           <li>Fixed device staying ON after Teams meetings end (stale meeting watchdog).</li>
           <li>Fixed false re-activation after meeting ends from lingering mic/camera activity.</li>
@@ -21,10 +21,10 @@
           <li>Check for Updates now responds on first click.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.0.10/OnAir-3.0.10-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.0.11/OnAir-3.0.11-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="bf5kgsVBKePoRhRhOQRfiw6anHchAozz5h00iZWeeiL8JPu8INfFf0nPU6TSACpVrM9R3abqKaVvXTDKfRKcDg=="
-                 length="4884891" />
+                 sparkle:edSignature="4zMA1L6HuGFQhUr3IjSJ+NfZpiYElXCpjFMhFx4h4Tmx5wu9sa16OsHFJnUHKQXUDPzIuHOELhovAdciwdrKAA=="
+                 length="4885320" />
     </item>
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 {
-  "version": "3.0.10",
-  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.0.10/OnAir-3.0.10-macOS-arm64.dmg",
+  "version": "3.0.11",
+  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.0.11/OnAir-3.0.11-macOS-arm64.dmg",
   "release_notes": "- Fixed device staying ON after Teams meetings end (stale meeting watchdog). - Fixed false re-activation after meeting ends from lingering mic/camera activity. - Improved microphone detection with polling fallback for USB audio devices. - Browser tabs scanned before desktop apps for accurate web meeting identification. - Faster config save when no device is configured (skips mDNS search). - Clearer save confirmation message when no device is configured. - Check for Updates now responds on first click."
 }
