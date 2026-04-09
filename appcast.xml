@@ -5,8 +5,8 @@
     <language>en</language>
     <item>
       <title>OnAir 3.24</title>
-      <pubDate>Thu, 09 Apr 2026 15:56:14 -0400</pubDate>
-      <sparkle:version>28</sparkle:version>
+      <pubDate>Thu, 09 Apr 2026 15:59:52 -0400</pubDate>
+      <sparkle:version>29</sparkle:version>
       <sparkle:shortVersionString>3.24</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
@@ -20,12 +20,13 @@
           <li>Shortcut confirmation window: dark mode, Focus Mode offset, improved timing.</li>
           <li>Check for Updates now responds on first click.</li>
           <li>Fixed manual count in statistics window.</li>
+          <li>Fixed crash when "Check for update" is triggered. Added a 0.1s delay.</li>
         </ul>
       ]]></description>
       <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.24/OnAir-3.24-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="R78C8NuSXQO1MYhterw4urlWoMIbHK3soEjMdmfuP03viBaHATOoODnZM8vdcECGz90RraDSppv/Lq3HMzzoAw=="
-                 length="4886302" />
+                 sparkle:edSignature="rPXI6ok9x+QiSOCFNhjuEkogVgFFSXXUOvvSMbu+LNnUgCgKz8jQqQKHBg95ByAf+xNyQ1U2+bHZdZe211qaCQ=="
+                 length="4886846" />
     </item>
   </channel>
 </rss>
