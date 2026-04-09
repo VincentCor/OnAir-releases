@@ -4,13 +4,13 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir 3.24</title>
-      <pubDate>Thu, 09 Apr 2026 15:59:52 -0400</pubDate>
-      <sparkle:version>29</sparkle:version>
-      <sparkle:shortVersionString>3.24</sparkle:shortVersionString>
+      <title>OnAir 3.25</title>
+      <pubDate>Thu, 09 Apr 2026 16:02:14 -0400</pubDate>
+      <sparkle:version>30</sparkle:version>
+      <sparkle:shortVersionString>3.25</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir 3.24</h2>
+        <h2>What's New in OnAir 3.25</h2>
         <ul>
           <li>Fixed microphone identified as "Browser" instead of Teams during Teams app meetings.</li>
           <li>Fixed external device change detection race condition causing false alerts.</li>
@@ -23,10 +23,10 @@
           <li>Fixed crash when "Check for update" is triggered. Added a 0.1s delay.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.24/OnAir-3.24-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.25/OnAir-3.25-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="rPXI6ok9x+QiSOCFNhjuEkogVgFFSXXUOvvSMbu+LNnUgCgKz8jQqQKHBg95ByAf+xNyQ1U2+bHZdZe211qaCQ=="
-                 length="4886846" />
+                 sparkle:edSignature="Vq3a86B25svirKI6XLNwETyrCQguBp8CfXAEyvcBrCDInRpCqRkMqefKEJCcV1xWYQJ8qiGRUs5839sRppsMCg=="
+                 length="4886855" />
     </item>
   </channel>
 </rss>
