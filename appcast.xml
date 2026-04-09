@@ -4,13 +4,13 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir 3.23</title>
-      <pubDate>Thu, 09 Apr 2026 14:07:51 -0400</pubDate>
-      <sparkle:version>27</sparkle:version>
-      <sparkle:shortVersionString>3.23</sparkle:shortVersionString>
+      <title>OnAir 3.24</title>
+      <pubDate>Thu, 09 Apr 2026 15:56:14 -0400</pubDate>
+      <sparkle:version>28</sparkle:version>
+      <sparkle:shortVersionString>3.24</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir 3.23</h2>
+        <h2>What's New in OnAir 3.24</h2>
         <ul>
           <li>Fixed microphone identified as "Browser" instead of Teams during Teams app meetings.</li>
           <li>Fixed external device change detection race condition causing false alerts.</li>
@@ -19,12 +19,13 @@
           <li>Web meetings (Meet, Zoom Web) no longer end prematurely after 10 seconds.</li>
           <li>Shortcut confirmation window: dark mode, Focus Mode offset, improved timing.</li>
           <li>Check for Updates now responds on first click.</li>
+          <li>Fixed manual count in statistics window.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.23/OnAir-3.23-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.24/OnAir-3.24-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="I8QaLQ5S7FpTY9yReyxyritiUo9Eq53g4Rx1YahyPdIUrozsBck86sVDeBhVU4lM6CQYaT+PUliNpnKK0WxvAw=="
-                 length="4888615" />
+                 sparkle:edSignature="R78C8NuSXQO1MYhterw4urlWoMIbHK3soEjMdmfuP03viBaHATOoODnZM8vdcECGz90RraDSppv/Lq3HMzzoAw=="
+                 length="4886302" />
     </item>
   </channel>
 </rss>
