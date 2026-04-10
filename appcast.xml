@@ -4,13 +4,13 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir 3.29</title>
-      <pubDate>Fri, 10 Apr 2026 11:33:10 -0400</pubDate>
-      <sparkle:version>34</sparkle:version>
-      <sparkle:shortVersionString>3.29</sparkle:shortVersionString>
+      <title>OnAir 3.30</title>
+      <pubDate>Fri, 10 Apr 2026 14:25:00 -0400</pubDate>
+      <sparkle:version>35</sparkle:version>
+      <sparkle:shortVersionString>3.30</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir 3.29</h2>
+        <h2>What's New in OnAir 3.30</h2>
         <ul>
           <li>Device codes now support 6 characters (new firmware). 4-character codes still supported.</li>
           <li>Menu bar icon now updates instantly when a meeting starts or ends.</li>
@@ -23,10 +23,10 @@
           <li>Check for Updates no longer crashes on first click.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.29/OnAir-3.29-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.30/OnAir-3.30-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="hZmhBWj+RnNYNPpvpOpeMRJfgo7ieHjfq0DwMN6RvoOlJptwCDL2mDTOf5thcyxnJcAaWWSE5OR719E2ag/iCw=="
-                 length="4887753" />
+                 sparkle:edSignature="vp9NpCa62Argo7GZtqVu9/GYaTu4tCVk5buDckLwVuFQTWR9Xt/VTIzqfuCPKJ672LL7F/ZPQFr+o/4Z+hTbCA=="
+                 length="4888910" />
     </item>
   </channel>
 </rss>

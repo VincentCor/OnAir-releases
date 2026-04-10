@@ -1,5 +1,5 @@
 {
-  "version": "3.29",
-  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.29/OnAir-3.29-macOS-arm64.dmg",
+  "version": "3.30",
+  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.30/OnAir-3.30-macOS-arm64.dmg",
   "release_notes": "- Device codes now support 6 characters (new firmware). 4-character codes still supported. - Menu bar icon now updates instantly when a meeting starts or ends. - Fixed microphone identified as Browser instead of the actual meeting app. - Fixed web meetings (Meet, Zoom Web) ending prematurely after 10 seconds. - Fixed race condition in external device change detection. - Microphone polling fallback for USB audio devices. - Shortcut detection cached at startup for reliable Focus Mode configuration. - Statistics: Manual ON count now matches the platform breakdown table. - Check for Updates no longer crashes on first click."
 }
