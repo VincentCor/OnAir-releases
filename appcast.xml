@@ -4,29 +4,30 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir 3.30</title>
-      <pubDate>Fri, 10 Apr 2026 14:25:00 -0400</pubDate>
-      <sparkle:version>35</sparkle:version>
-      <sparkle:shortVersionString>3.30</sparkle:shortVersionString>
+      <title>OnAir 3.31</title>
+      <pubDate>Sat, 11 Apr 2026 21:48:50 -0400</pubDate>
+      <sparkle:version>36</sparkle:version>
+      <sparkle:shortVersionString>3.31</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir 3.30</h2>
+        <h2>What's New in OnAir 3.31</h2>
         <ul>
-          <li>Device codes now support 6 characters (new firmware). 4-character codes still supported.</li>
-          <li>Menu bar icon now updates instantly when a meeting starts or ends.</li>
-          <li>Fixed microphone identified as "Browser" instead of the actual meeting app.</li>
-          <li>Fixed web meetings (Meet, Zoom Web) ending prematurely after 10 seconds.</li>
-          <li>Fixed race condition in external device change detection.</li>
-          <li>Microphone polling fallback for USB audio devices.</li>
-          <li>Shortcut detection cached at startup for reliable Focus Mode configuration.</li>
-          <li>Statistics: Manual ON count now matches the platform breakdown table.</li>
-          <li>Check for Updates no longer crashes on first click.</li>
+          <li>New: Webhook support — send POST notifications when calls start or end.</li>
+          <li>New: Monitoring Hours — auto-start and stop monitoring on a schedule.</li>
+          <li>New: Brave Browser support for web meeting detection.</li>
+          <li>Redesigned Settings screen with clearer Device, Actions, and General sections.</li>
+          <li>Improved login items setup screen with new design.</li>
+          <li>Shortcut confirmation window always uses dark mode.</li>
+          <li>Shortcut confirmation avoids overlapping macOS Focus Mode notifications.</li>
+          <li>Fixed web meetings ending prematurely after 10 seconds (dead process check).</li>
+          <li>Monitoring always starts on launch (removed Start Monitoring on Launch toggle).</li>
+          <li>Menu items renamed to Start/Stop Monitoring for clarity.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.30/OnAir-3.30-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.31/OnAir-3.31-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="vp9NpCa62Argo7GZtqVu9/GYaTu4tCVk5buDckLwVuFQTWR9Xt/VTIzqfuCPKJ672LL7F/ZPQFr+o/4Z+hTbCA=="
-                 length="4888910" />
+                 sparkle:edSignature="8gFCib7jCczaHh/dPJekVhv9obJhUj/ZZatKcj+WVoaBgyW0EcAERZlXoLkwobMBLMJ7BbgdGhfhFcp+tHV1Bw=="
+                 length="4947232" />
     </item>
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 {
-  "version": "3.30",
-  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.30/OnAir-3.30-macOS-arm64.dmg",
-  "release_notes": "- Device codes now support 6 characters (new firmware). 4-character codes still supported. - Menu bar icon now updates instantly when a meeting starts or ends. - Fixed microphone identified as Browser instead of the actual meeting app. - Fixed web meetings (Meet, Zoom Web) ending prematurely after 10 seconds. - Fixed race condition in external device change detection. - Microphone polling fallback for USB audio devices. - Shortcut detection cached at startup for reliable Focus Mode configuration. - Statistics: Manual ON count now matches the platform breakdown table. - Check for Updates no longer crashes on first click."
+  "version": "3.31",
+  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.31/OnAir-3.31-macOS-arm64.dmg",
+  "release_notes": "- New: Webhook support — send POST notifications when calls start or end. - New: Monitoring Hours — auto-start and stop monitoring on a schedule. - New: Brave Browser support for web meeting detection. - Redesigned Settings screen with clearer Device, Actions, and General sections. - Improved login items setup screen with new design. - Shortcut confirmation window always uses dark mode. - Shortcut confirmation avoids overlapping macOS Focus Mode notifications. - Fixed web meetings ending prematurely after 10 seconds (dead process check). - Monitoring always starts on launch (removed Start Monitoring on Launch toggle). - Menu items renamed to Start/Stop Monitoring for clarity."
 }
